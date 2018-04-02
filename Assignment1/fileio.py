@@ -19,5 +19,14 @@ file = open("city_test.csv","r")
 for i in range(n):
     li.append(str(file.readline().replace(","," ")))
 li.sort()
-
 file.close();
+file = open("city_test.csv","w")
+newlist = []
+for i in range(n):
+    newlist = li[i].split(" ")
+    for i in range(3):
+        file.write(newlist[i])
+        if i < 2:
+            file.write(",")
+
+file.close()
