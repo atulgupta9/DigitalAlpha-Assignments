@@ -1,4 +1,3 @@
-import sys, csv, operator
 file = open("city_test.csv","w")
 print("Enter the no. of data you want to enter")
 n = int(input())
@@ -13,7 +12,7 @@ for i  in range(n):
     file.write(str(input()))
     file.write("\n")
 file.close()
-
+input("Press Enter to continue")
 li = []
 file = open("city_test.csv","r")
 for i in range(n):
@@ -28,5 +27,5 @@ for i in range(n):
         file.write(newlist[i])
         if i < 2:
             file.write(",")
-
+print("File updated with sorted records!")
 file.close()
