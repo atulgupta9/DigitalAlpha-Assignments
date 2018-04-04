@@ -19,3 +19,4 @@ Alphacom deals with multiple clients and their employees are all over the world,
 So, by cloudifying the entire infrastructure, Alphacom can save on infrastructure and licenses cost and add on to their annual revenues. The prime concern post adopting the cloud, is that the entire business can come to a halt without internet availability, also if they use a public cloud for data-storage, then data-privacy may be an area of concern as well.
 
 
+https://www.znetlive.com/blog/why-move-your-infrastructure-to-the-cloud/
