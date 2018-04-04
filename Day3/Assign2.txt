@@ -1,0 +1,16 @@
+There are two ways to summarize them for EDA.
+1.	Non-Graphical Summaries(Numerical)
+2.	Graphical Summaries
+
+1.	Non-Graphical Summaries(Numerical)
+  a.	Mean
+  b.	Median
+  c.	Mode
+  d.	Variance and Standard Deviation (Measures the spread of distribution)
+  
+2.	Graphical Summaries
+  a.	Pareto Chart -> For categorical data
+  b.	Histogram -> For batch of numerical data
+  c.	Boxplots -> For numerical data
+  d.	Time Series Plot -> For data collected over time
+  e.	Scatterplot
