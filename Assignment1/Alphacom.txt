@@ -1,1 +1,10 @@
 
+Cloudifying the infrastructure will help lower business costs, improve data security and will enable the organization to establish a workplace anywhere in the world with the help of an internet connection.
+
+Given that Alphacom has around 50,000 employees and has been in the business for the past 30 years, shifting to cloud won’t be an easy task. For an established company, they should not make a large-scale shift to a public cloud provider all at once. 
+Alphacom should identify lower-risk potential areas that can give higher rewards for initial deployment. So, they can have their development/testing environments, applications that have fewer dependencies deployed to the cloud first.
+
+Also, to realize the benefits of cloud, it is not required for them to replace the existing data-infrastructure. They can extend their on-premises infrastructure with cloud-based offerings
+I would suggest Alphacom to retain the old applications and the highly critical applications (such as those for banking clients) in the existing data-infrastructure. Also the older applications may cause compatibility issues as we try to move them to the cloud.
+
+Shifting to the cloud, will generate newer opportunities and using cloud is easy to scale up and down, to service all or to save on the cost. Though there are benefits, in moving to cloud, the real catch is how well it gets integrated with the existing infrastructure.
