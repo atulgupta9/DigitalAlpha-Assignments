@@ -1,0 +1,5 @@
+The best possible data structure would be LINKED LIST.
+We will use a Linked List to store all the next possible moves. Since depending on the position/availability of the chess piece we can
+dynamically add data to the Linked List and refer to each positions as and when required depending on the move initiated.
+
+
