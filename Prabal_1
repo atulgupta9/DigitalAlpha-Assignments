@@ -1,0 +1,36 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
+from sklearn import preprocessing
+
+df = pd.read_csv(r"C:\\Users\\user\\Python Programs\\April17\\adult.data.csv")
+df.columns = range(0,len(df.columns))
+df = df.replace(' ?',np.NaN)
+df = df.replace(' <=50K',0)
+df = df.replace(' >50K',1)
+val=df[df[12]==1][12].value_counts()
+print(val)
+df = df.dropna()
+df = df.drop(12,axis=1)
+
+le = preprocessing.LabelEncoder()
+
+df=df.apply(preprocessing.LabelEncoder().fit_transform)
+
+# =============================================================================
+# for i in range(0,len(df.columns)):
+#     if(df.dtypes[i] ==object):
+#         le.fit(df[i])
+#         df[i]= le.transform(df[i])
+# =============================================================================
+    
+
+
+kmeans = KMeans(n_clusters=2)  
+kmeans.fit(df)  
+kmeans.cluster_centers_
+kmeans.score(df)
+x = kmeans.labels_  
+sum(x)
