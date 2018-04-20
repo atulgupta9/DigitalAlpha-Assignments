@@ -56,6 +56,10 @@ def get_new_centroids(k,x,y,cluster_list):
                 
         
         
+def should_i_stop(old_centroid,new_centroid):
+    print(old_centroid)
+    print(new_centroid)
+    return old_centroid == new_centroid
         
         
 df = pd.read_excel(r"C:\Users\user\Python Programs\April19\kmean.xlsx")
@@ -67,6 +71,12 @@ centroids = random_centroids(k,x,y)
 dist_from_centroids = euclidean_dist(x,y,centroids)
 cluster_list = get_clusters(x,y,dist_from_centroids)
 new_centroid = get_new_centroids(k,x,y,cluster_list)
-
+while not (should_i_stop(centroids,new_centroid)):
+    centroids=new_centroid
+    print(centroids)
+    dist_from_centroids = euclidean_dist(x,y,centroids)
+    cluster_list = get_clusters(x,y,dist_from_centroids)
+    new_centroid = get_new_centroids(k,x,y,cluster_list)
+print(cluster_list)    
 
     
