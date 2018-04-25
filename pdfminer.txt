@@ -1,0 +1,15 @@
+C:\Users\Atul Gupta>pip install pdfminer.six
+Collecting pdfminer.six
+  Downloading https://files.pythonhosted.org/packages/a5/4c/dfc462296ff431aa072c952560ee8e43304523b5e7be82e220fae72dc61c/pdfminer.six-20170720.tar.gz (12.0MB)
+    100% |████████████████████████████████| 12.0MB 49kB/s
+Collecting six (from pdfminer.six)
+  Downloading https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting pycryptodome (from pdfminer.six)
+  Downloading https://files.pythonhosted.org/packages/82/bd/bd192c1314bde108a91295fbec02bc20a816330feb10273aa36d885004ab/pycryptodome-3.6.1-cp36-cp36m-win_amd64.whl (7.8MB)
+    100% |████████████████████████████████| 7.9MB 55kB/s
+Collecting chardet (from pdfminer.six)
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+    100% |████████████████████████████████| 143kB 187kB/s
+Installing collected packages: six, pycryptodome, chardet, pdfminer.six
+  Running setup.py install for pdfminer.six ... done
+Successfully installed chardet-3.0.4 pdfminer.six-20170720 pycryptodome-3.6.1 six-1.11.0
